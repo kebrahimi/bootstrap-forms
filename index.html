@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Cat Quiz </title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1>Cat Quiz</h1>
+            <p>Cats are a domestic species of mammals, often referred to as domestic cats. Take this quiz to test your cat knowledge! The answers can be found in <a href="https://en.wikipedia.org/wiki/Cat">this Wikipedia page.</a></p>
+            <form>
+                <fieldset class="form-group">
+                    <div class="form-group">
+                        <label class="form-control-label" for="textfield1">What language is thought to be the origin of the word "cat"?</label>
+                        <input class="form-control" type="text" id="textfield1" name="textfield1">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label" for="textfield2">What family is the domestic cat from?</label>
+                        <input class="form-control" type="text" id="textfield2" name="textfield2">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-control-label" for="textarea1">Explain why a domestic cat has poor color vision</label>
+                        <textarea class="form-control" id="textarea1" name="textarea1" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label> What range of octaves can cats hear? (choose only one)</label>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="octaves" value="2.3"> 2.3
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="octaves" value="10.5"> 10.5
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="octaves" value="4.5"> 4.5
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="octaves" value="9"> 9
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>What methods of communication do domestic cats use? (check all that apply)</label>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" id="purring" name="purring" value="Purring"> Purring
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" id="trilling" name="trilling" value="Trilling"> Trilling
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" id="hissing" name="hissing" value="Hissing"> Hissing
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" id="barking" name="barking" value="Barking"> Barking
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="oldestCat">Which one of these is the oldest known cat to live 38 years? (select one)</label><br>
+                        <select multiple class="form-control" name="oldestCat" id="oldestCat">
+                            <option value="lulu">Lulu</option>
+                            <option value="milo">Milo</option>
+                            <option value="dede">Dede</option>
+                            <option value="cinnamonSticks">Cinnamon Sticks</option>
+                            <option value="cremePuff">Creme Puff</option>
+                            <option value="bingo">Bingo</option>
+                        </select>
+                    </div>
+                </fieldset>
+            <div>
+                <button class="btn btn-primary" type="submit" value="Submit">Submit Answers</button>
+                <button class="btn btn-secondary" type="reset" value="Reset">Start Over</button>
+            </div>
+            </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</body>
+</html>
